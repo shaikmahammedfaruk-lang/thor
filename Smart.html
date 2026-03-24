@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dynamic Portfolio & Blog CMS</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>My Portfolio</h1>
+</header>
+<section id="about">
+<h2>About Me</h2>
+<p>Hil I'm a Web Developer who loves building dynamic web apps.</p>
+</section>
+<section id="blog">
+<h2>Blog CMS</h2>
+<div class="form-container">
+<input type="text" id="title" placeholder="Blog Title">
+<textarea id="content" placeholder="Blog Content"></textarea>
+<button onclick="addPost()">Publish Blog</button>
+<h3>Your Blogs</h3>
+</div>
+<div id="posts"></div>
+</sections>
+<script src="script.js"></script>
+</body>
+</html>
